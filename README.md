@@ -20,6 +20,7 @@ cd ConvNeXt
 Create a conda environment using the `a100env.yml` file:
 ```bash
 conda env create -f a100env.yml
+conda activate convnext-torch
 ```
 
 ## Run

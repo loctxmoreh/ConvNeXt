@@ -1,0 +1,13 @@
+name: convnext-torch
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.8
+  - cudatoolkit=11.3
+  - pytorch=1.12.1
+  - torchvision
+  - torchaudio
+  - timm==0.4.12
+  - tensorboardX
+  - six

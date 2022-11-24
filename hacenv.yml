@@ -1,0 +1,11 @@
+name: convnext-torch
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - torch==1.10.0+cpuonly.moreh0.2.0
+    - torchvision
+    - torchaudio
+    - timm==0.4.12
+    - tensorboardX
+    - six
